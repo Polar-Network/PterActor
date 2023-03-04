@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    id("java-library")
     id("com.github.johnrengelman.shadow") version "7.1.0"
 }
 
@@ -13,7 +14,9 @@ repositories {
 }
 
 dependencies {
-    implementation("com.mattmalec:Pterodactyl4J:v2.BETA_140")
+    api("com.mattmalec:Pterodactyl4J:2.BETA_140")
+    compileOnly("net.kyori:adventure-api:4.12.0")
+    implementation("net.kyori:adventure-text-minimessage:4.12.0")
 }
 
 subprojects {
@@ -26,8 +29,12 @@ subprojects {
     repositories {
         mavenCentral()
         maven("https://jitpack.io")
+        maven("https://repo.mattmalec.com/repository/releases")
     }
 
+    dependencies {
+        implementation(rootProject)
+    }
 
     tasks {
         compileJava {

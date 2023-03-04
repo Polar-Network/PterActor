@@ -4,6 +4,7 @@ public enum InformerType {
 
     CHAT,
     TITLE,
-    ACTIONBAR
+    ACTIONBAR,
+    BOSSBAR
 
 }

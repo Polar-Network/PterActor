@@ -4,15 +4,16 @@
     <facet type="minecraft" name="Minecraft">
       <configuration>
         <autoDetectTypes>
+          <platformType>PAPER</platformType>
           <platformType>ADVENTURE</platformType>
         </autoDetectTypes>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../../src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    <content url="file://$MODULE_DIR$/../../../paper/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../paper/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../paper/src/main/resources" type="java-resource" />
     </content>
   </component>
 </module>

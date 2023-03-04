@@ -1,6 +1,10 @@
 .gradle
 /build/
 
+
+paper/build/
+minestom/build/
+
 # Ignore Gradle GUI config
 gradle-app.setting
 

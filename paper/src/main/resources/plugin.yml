@@ -1,0 +1,6 @@
+name: "PterActor"
+version: "1.0-SNAPSHOT"
+main: "net.polar.paper.PterActor"
+description: "A pterodactyl panel API based PaperSpigot plugin & Minestom extension for scheduling pterodactyl tasks"
+depend:
+  - "PlaceholderAPI"

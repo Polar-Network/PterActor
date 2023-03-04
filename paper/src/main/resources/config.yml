@@ -1,0 +1,11 @@
+pterodactyl:
+  host: "http://localhost:8080"
+  key: "your-api-key"
+  server-id: "your-server-uuid"
+
+#CHAT,TITLE,ACTIONBAR,BOSSBAR
+informer: "TITLE"
+
+restart-interval: 60 # in minutes
+restart:
+  60: "<red>Server is restarting in 1 minute"

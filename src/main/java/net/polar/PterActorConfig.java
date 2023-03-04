@@ -1,6 +1,5 @@
 package net.polar;
 
-
 import net.polar.informer.InformerType;
 
 import java.util.Map;
@@ -8,7 +7,9 @@ import java.util.Map;
 public record PterActorConfig(
         String pterodactylHost,
         String pterodactylKey,
-        Map<Integer, String> secondBasedMessages,
+        String primaryServerId,
+        Map<Integer, String> shutdownMessages,
+        int shutdownInterval,
         InformerType informerType
 ) {
 
